@@ -1,0 +1,20 @@
+
+require-macros:
+   earl-mocha ->
+      describe, it, before, after
+      xdescribe, xit
+      assert, asserts
+
+require:
+   ../src -> joy
+
+describe "joy":
+
+   it "permeates everything":
+      assert joy("Everything") == "Everything is really nice!"
+
+   asserts:
+      joy() == "Earl Grey is really nice!"
+      joy("The cat") == "The cat is really nice!"
+      joy("Joy") == "Joy is really nice!"
+

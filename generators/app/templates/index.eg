@@ -1,0 +1,6 @@
+
+provide: joy
+
+joy(thing = "Earl Grey") =
+   '{thing} is really nice!'
+
