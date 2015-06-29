@@ -10,8 +10,7 @@ from JavaScript as normal.
 It generates `prepublish` hooks that compile your code to JavaScript
 automatically, and a test file that uses `earl-mocha` (BDD mode).
 
-
-Usage:
+## Usage
 
     npm install -g generator-earl-package
     yo earl-package
@@ -28,7 +27,9 @@ Resulting directory structure:
         mocha.opt
         test.eg
 
-The following commands are also defined for convenience:
+## Commands
+
+The following commands are defined for convenience:
 
 To compile the project to JS:
 
