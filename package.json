@@ -1,6 +1,6 @@
 {
   "name": "generator-earl-package",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Generate scaffolding for an npm package written in Earl Grey.",
   "license": "MIT",
   "main": "app/index.js",
